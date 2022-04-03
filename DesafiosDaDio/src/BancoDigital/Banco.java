@@ -1,5 +1,6 @@
 package BancoDigital;
 
+import javax.swing.*;
 import java.util.List;
 
 public class Banco {
@@ -19,5 +20,6 @@ public class Banco {
     public void setContas(List<Conta> contas){
         this.contas = contas;
     }
-    
+
+
 }

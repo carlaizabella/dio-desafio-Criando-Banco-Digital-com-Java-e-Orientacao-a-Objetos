@@ -1,10 +1,13 @@
 package BancoDigital;
 
+import javax.swing.*;
+import javax.swing.JButton;
+
 public class Main {
 
     public static void main(String[] args){
         Cliente carla = new Cliente();
-        carla.setNome("Carla Izabella");
+        //carla.setNome();
 
         Conta cc = new ContaCorrente(carla);
         Conta poupanca = new ContaPoupanca(carla);
@@ -15,4 +18,6 @@ public class Main {
         cc.imprimirExtrato();
         poupanca.imprimirExtrato();
     }
+
+
 }
